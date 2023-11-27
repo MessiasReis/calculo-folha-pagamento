@@ -1,0 +1,164 @@
+import java.util.Scanner;
+
+public class CalculadoraJornadaTrabalho {
+
+    // Método para calcular a carga horária semanal
+    public static int calcularCargaHorariaSemanal(int horasDiarias, int diasTrabalhados) {
+        return horasDiarias * diasTrabalhados;
+    }
+
+    // Método para calcular a jornada semanal
+    public static int calcularJornadaSemanal(int cargaHorariaSemanal) {
+        return Math.min(cargaHorariaSemanal, 44); // Limitando a 44 horas semanais
+    }
+
+    // Método para calcular a jornada mensal
+    public static int calcularJornadaMensal(int jornadaSemanal, int semanasNoMes) {
+        return jornadaSemanal * semanasNoMes;
+    }
+
+    // Método para calcular o salário por hora
+    public static double calcularSalarioPorHora(double salarioBruto, int jornadaMensal) {
+        return salarioBruto / jornadaMensal;
+    }
+
+    // Método para calcular o adicional de insalubridade
+    public static double calcularAdicionalInsalubridade(double salarioMinimo, double percentualAdicional) {
+        return salarioMinimo * (percentualAdicional / 100);
+    }
+
+    // Método para calcular o desconto ou valor a descontar do vale transporte
+    public static double calcularDescontoValeTransporte(double salarioBruto, double valorValeTransporte) {
+        double limiteDesconto = salarioBruto * 0.06; // 6% do salário bruto para o vale transporte
+
+        if (valorValeTransporte < limiteDesconto) {
+            return valorValeTransporte;
+        } else {
+            return limiteDesconto;
+        }
+    }
+
+    // Método para calcular o valor do vale alimentação
+    public static double calcularValorValeAlimentacao(double valorDiario, int diasTrabalhados) {
+        return valorDiario * diasTrabalhados;
+    }
+
+    // Método para calcular o valor do INSS de acordo com a faixa salarial
+    public static double calcularINSS(double salarioBruto) {
+        double valorINSS = 0;
+
+        if (salarioBruto <= 1302.00) {
+            valorINSS = salarioBruto * 0.075;
+        } else if (salarioBruto <= 2571.29) {
+            valorINSS = (salarioBruto - 1302.00) * 0.09 + 97.65;
+        } else if (salarioBruto <= 3856.94) {
+            valorINSS = (salarioBruto - 2571.29) * 0.12 + 114.24 + 97.65;
+        } else if (salarioBruto <= 7507.49) {
+            valorINSS = (salarioBruto - 3856.94) * 0.14 + 154.28 + 114.24 + 97.65;
+        } else {
+            valorINSS = 713.10; // Teto máximo de contribuição do INSS para 2023
+        }
+
+        return valorINSS;
+    }
+
+    // Método para calcular o valor do FGTS
+    public static double calcularFGTS(double salarioBruto) {
+        return salarioBruto * 0.08;
+    }
+
+    // Método para calcular o salário base (salário bruto - valor do INSS)
+    public static double calcularSalarioBase(double salarioBruto, double valorINSS) {
+        return salarioBruto - valorINSS;
+    }
+
+    // Método para calcular a base de cálculo para o IRPF
+    public static double calcularBaseCalculoIRPF(double salarioBase, int numeroDependentes) {
+        double deducaoDependentes = 189.59 * numeroDependentes;
+        return salarioBase - deducaoDependentes;
+    }
+
+    // Método para calcular o desconto do Imposto de Renda Retido na Fonte (IRRF)
+    public static double calcularIRRF(double baseCalculoIRPF) {
+        double imposto = 0;
+
+        if (baseCalculoIRPF <= 1903.98) {
+            imposto = 0;
+        } else if (baseCalculoIRPF <= 2826.65) {
+            imposto = (baseCalculoIRPF - 1903.99) * 0.075 - 142.80;
+        } else if (baseCalculoIRPF <= 3751.05) {
+            imposto = (baseCalculoIRPF - 2826.66) * 0.15 - 354.80;
+        } else if (baseCalculoIRPF <= 4664.68) {
+            imposto = (baseCalculoIRPF - 3751.06) * 0.225 - 636.13;
+        } else {
+            imposto = (baseCalculoIRPF - 4664.68) * 0.275 - 869.36;
+        }
+
+        return Math.max(imposto, 0); // O imposto nunca pode ser negativo
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe as horas trabalhadas por dia: ");
+        int horasTrabalhadasPorDia = scanner.nextInt();
+
+        System.out.println("Informe os dias trabalhados por semana: ");
+        int diasTrabalhadosPorSemana = scanner.nextInt();
+
+        System.out.println("Informe o número de semanas no mês: ");
+        int semanasNoMes = scanner.nextInt();
+
+        System.out.println("Informe o salário bruto: ");
+        double salarioBruto = scanner.nextDouble();
+
+        System.out.println("Informe o valor dos vales transportes entregues: ");
+        double valorValeTransporte = scanner.nextDouble();
+
+        System.out.println("Informe o valor diário do vale alimentação: ");
+        double valorDiarioValeAlimentacao = scanner.nextDouble();
+
+        System.out.println("Informe o grau de risco (Baixo, Médio ou Alto): ");
+        String grauRisco = scanner.next();
+
+        scanner.close();
+
+        int numeroDependentes = 2; // Exemplo com 2 dependentes
+
+        // Cálculos principais
+        int cargaHorariaSemanal = calcularCargaHorariaSemanal(horasTrabalhadasPorDia, diasTrabalhadosPorSemana);
+        int jornadaSemanal = calcularJornadaSemanal(cargaHorariaSemanal);
+        int jornadaMensal = calcularJornadaMensal(jornadaSemanal, semanasNoMes);
+        double salarioPorHora = calcularSalarioPorHora(salarioBruto, jornadaMensal);
+        double adicionalInsalubridade = calcularAdicionalInsalubridade(1380.60, 20); // Exemplo com adicional médio
+        double valorINSS = calcularINSS(salarioBruto);
+        double valorFGTS = calcularFGTS(salarioBruto);
+        double salarioBase = calcularSalarioBase(salarioBruto, valorINSS);
+        double baseCalculoIRPF = calcularBaseCalculoIRPF(salarioBase, numeroDependentes);
+        double valorIRRF = calcularIRRF(baseCalculoIRPF);
+
+        // Resultados
+        System.out.println("Carga horária semanal: " + cargaHorariaSemanal + " horas");
+        System.out.println("Jornada semanal (limitada a 44 horas): " + jornadaSemanal + " horas");
+        System.out.println("Jornada mensal: " + jornadaMensal + " horas");
+        System.out.println("Salário por hora: R$ " + salarioPorHora);
+        System.out.println("Adicional de insalubridade (" + grauRisco + "): R$ " + adicionalInsalubridade);
+        System.out.println("Desconto ou valor a descontar do vale transporte: R$ " + calcularDescontoValeTransporte(salarioBruto, valorValeTransporte));
+        System.out.println("Valor do vale alimentação: R$ " + calcularValorValeAlimentacao(valorDiarioValeAlimentacao, jornadaMensal / 6)); // Considerando 6 dias por semana
+
+        // INSS e FGTS
+        System.out.println("Valor do INSS a ser recolhido: R$ " + valorINSS);
+        System.out.println("Valor do FGTS a ser recolhido: R$ " + valorFGTS);
+
+        // Salário base, Base de cálculo IRPF, IRRF, Alíquota efetiva IRPF
+        System.out.println("Salário Base: R$ " + salarioBase);
+        System.out.println("Base de Cálculo para IRPF: R$ " + baseCalculoIRPF);
+        System.out.println("Desconto do Imposto de Renda (IRRF): R$ " + valorIRRF);
+        double aliquotaEfetivaIRPF = valorIRRF / salarioBruto * 100;
+        System.out.println("Alíquota efetiva de IRPF: " + aliquotaEfetivaIRPF + "%");
+
+        // Salário Líquido
+        double salarioLiquido = salarioBruto - valorINSS - valorIRRF;
+        System.out.println("Salário Líquido: R$ " + salarioLiquido);
+    }
+}
