@@ -20,7 +20,7 @@ A proposta do projeto é criar uma aplicação que cadastre funcionários, faça
 O sistema deve permitir que o usuário obtenha o valor do salário por hora a partir do salário bruto informado.
 </br>
 </br>
-##. O sistema deve permitir que o usuário calcule os adicionais de periculosidade e insalubridade, caso o funcionário seja apto em receber esses adicionais no salário.
+O sistema deve permitir que o usuário calcule os adicionais de periculosidade e insalubridade, caso o funcionário seja apto em receber esses adicionais no salário.
 </br>
 </br>
 O sistema deve permitir que o usuário calcule os benefícios de vale transporte e vale alimentação.
@@ -75,21 +75,23 @@ RF9 - Calcular Salário Líquido: O sistema deve ser capaz de calcular o salári
 
 # Requisitos Não Funcionais 
 </br>
-Usabilidade: O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
-</br>
-Manutenabilidade: 
+#### Usabilidade: O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
+</br></br>
+#### Manutenabilidade: 
 O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
-</br>
+</br></br>
 O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
 </br>
 O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
 </br>
-Requisitos Tecnológicos:
+#### Requisitos Tecnológicos:
+</br>
 </br>
 O sistema deverá ser implementado usando a linguagem de programação Java ✅
 O sistema deverá armazenar os dados em um banco de dados relacional ✅
 </br>
-Requisitos Extra:
+</br>
+#### Requisitos Extra:
 </br>
 Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de  aprendizagem.
 </br>
