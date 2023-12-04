@@ -83,7 +83,7 @@ O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com 
 O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
 </br>
 O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
-</br>
+</br></br>
 #### Requisitos Tecnológicos:
 </br>
 </br>
@@ -109,6 +109,6 @@ O sistema deverá verificar automaticamente quantas semanas tem o mês corrente 
 </br>
 </br>
 
-RF10 -  Exibir Relatório: O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
+O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
 </br>
 </br>
