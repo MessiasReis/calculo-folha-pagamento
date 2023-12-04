@@ -2,8 +2,8 @@
 
 </br>
 
-<center> ### Ferramentas usadas </center>
-<center><img src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src = "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" /> </center>
+### Ferramentas usadas
+<img src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src = "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" /> 
 
 </br>
 
@@ -20,7 +20,7 @@ A proposta do projeto é criar uma aplicação que cadastre funcionários, faça
 O sistema deve permitir que o usuário obtenha o valor do salário por hora a partir do salário bruto informado.
 </br>
 </br>
-O sistema deve permitir que o usuário calcule os adicionais de periculosidade e insalubridade, caso o funcionário seja apto em receber esses adicionais no salário.
+##. O sistema deve permitir que o usuário calcule os adicionais de periculosidade e insalubridade, caso o funcionário seja apto em receber esses adicionais no salário.
 </br>
 </br>
 O sistema deve permitir que o usuário calcule os benefícios de vale transporte e vale alimentação.
