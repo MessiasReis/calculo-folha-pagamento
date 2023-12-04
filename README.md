@@ -14,7 +14,7 @@ Todos os membros (Andrey, Bruno, Luiz, Messias e Thiago) estão associados a ess
 
 # Considerações
 
-Para que o projeto seja inicializado são necessários o jdk e o mySQL instalados em sua máquina. A pasta resources dentro do projeto contem o banco de dados e o script para que sejam criadas as tabelas.
+Para que o projeto seja inicializado são necessários o jdk e o mySQL instalados em sua máquina. A pasta resources dentro do projeto contem o banco de dados e o script para que sejam criadas as tabelas. O driver jdbc também está na pasta resources. Na classe ConnectionFactory faça as conexões com o banco passando seu username, senha e caminho da sua instância local.
 
 # Proposta do projeto
 
