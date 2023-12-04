@@ -1,13 +1,12 @@
 # Trabalho feito para a disciplica de programação de soluções computacionais - 02/2023 - Professor Diego Barros
 
 
-### Ferramentas usadas
+<div align="center">
 
-<p align="center">
-  
+### Ferramentas usadas
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
 
-</p>
+</div>
 
 # Considerações
 
