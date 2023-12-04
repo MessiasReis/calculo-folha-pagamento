@@ -83,16 +83,18 @@ O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverã
 O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
 
 O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
+</br>
 O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
 
 #### Requisitos Tecnológicos:
 
 O sistema deverá ser implementado usando a linguagem de programação Java ✅
+</br>
 O sistema deverá armazenar os dados em um banco de dados relacional ✅
 
 #### Requisitos Extra:
 
-Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de aprendizagem.
+Esta seção define alguns requisitos opcionais que foram sugeridos pelo professor.
 
 O sistema deverá ter uma interface gráfica do Usuário (GUI) ❌
 </br>
