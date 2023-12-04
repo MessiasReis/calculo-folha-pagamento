@@ -36,3 +36,41 @@ O sistema deve mostrar na tela para o usuário os cálculos da folha de pagament
 </br>
 </br>
 O sistema deve armazenar informações dos funcionários e dos seus pagamentos recebidos.
+
+</br>
+
+# Requisitos funcionais 
+
+Requisitos Funcionais cumpridos: Todos ✅
+Requisitos funcionais não cumpridos: ❌
+
+RF1 - Calcular Salário Hora: O sistema deve ser capaz de calcular o valor do salário por hora de um funcionário  à partir do seu salário bruto ✅
+</br>
+</br>
+RF2 - Calcular Periculosidade: O sistema deve ser capaz de verificar se o funcionário é apto ao adicional periculosidade e realizar o cálculo ✅
+</br>
+</br>
+RF3 - Calcular Insalubridade: O sistema deve ser capaz de verificar se o funcionário é apto ao adicional insalubridade e realizar o cálculo ✅
+</br>
+</br>
+RF4 - Calcular Vale Transporte: O sistema deve ser capaz de calcular o benefício de vale transporte ✅
+</br>
+</br>
+RF5  - Calcular Vale Alimentação: O sistema deve ser capaz de calcular o benefício de vale alimentação ✅
+</br>
+</br>
+RF6 - Calcular Desconto de INSS: O sistema deve ser capaz de calcular o desconto de INSS ✅
+</br>
+</br>
+RF7  - Calcular FGTS: O sistema deve ser capaz de calcular o desconto de FGTS ✅
+</br>
+</br>
+RF8 - Calcular Desconto de IRRF: O sistema deve ser capaz de calcular o desconto de IRRF ✅
+</br>
+</br>
+RF9 - Calcular Salário Líquido: O sistema deve ser capaz de calcular o salário líquido do funcionário ✅
+</br>
+</br>
+RF10 -  Exibir Relatório: O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
+</br>
+</br>
