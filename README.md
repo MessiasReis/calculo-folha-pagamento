@@ -93,13 +93,18 @@ Requisitos Extra:
 </br>
 Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de  aprendizagem.
 </br>
+</br>
 O sistema deverá ter uma interface gráfica do Usuário (GUI) ❌
+</br>
 </br>
 O sistema deve implementar em sua  interface gráfica de  linha de comando, caracteres de desenhos de caixas, reproduzindo um visual retrô semelhante a interface MS-DOS ❌
 </br>
+</br>
 O sistema deve utilizar a classe BigDecimal para a realização dos cálculos ❌
 </br>
+</br>
 O sistema deverá verificar automaticamente quantas semanas tem o mês corrente ❌
+</br>
 </br>
 
 RF10 -  Exibir Relatório: O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
