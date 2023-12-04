@@ -6,6 +6,10 @@
 ### Ferramentas usadas
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
 
+### Membros do grupo 🙍‍♂
+
+Todos os membros estão associados a esse repositório.
+
 </div>
 
 # Considerações
@@ -104,5 +108,4 @@ O sistema deve utilizar a classe BigDecimal para a realização dos cálculos �
 </br>
 O sistema deverá verificar automaticamente quantas semanas tem o mês corrente ❌
 </br>
-
 O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
