@@ -8,7 +8,7 @@
 
 ### Membros do grupo 🙍‍♂
 
-Todos os membros estão associados a esse repositório.
+Todos os membros (Andrey, Bruno, Luiz, Messias e Thiago) estão associados a esse repositório.
 
 </div>
 
@@ -18,7 +18,7 @@ Para que o projeto seja inicializado são necessários o jdk e o mySQL instalado
 
 # Proposta do projeto
 
-A proposta do projeto é criar uma aplicação que cadastre funcionários, faça calculos de pagamentos e armazene em um banco de dados: 
+A proposta do projeto é criar uma aplicação que cadastre funcionários, faça calculos de pagamentos e armazene em um banco de dados
 
 # Características do Produto
 
