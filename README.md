@@ -74,41 +74,27 @@ RF9 - Calcular Salário Líquido: O sistema deve ser capaz de calcular o salári
 </br>
 
 # Requisitos Não Funcionais 
-</br>
+
 #### Usabilidade: O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
-</br></br>
+
 #### Manutenabilidade: 
 O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
-</br></br>
+
 O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
-</br>
 O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
-</br></br>
+
 #### Requisitos Tecnológicos:
-</br>
-</br>
+
 O sistema deverá ser implementado usando a linguagem de programação Java ✅
 O sistema deverá armazenar os dados em um banco de dados relacional ✅
-</br>
-</br>
+
 #### Requisitos Extra:
-</br>
-Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de  aprendizagem.
-</br>
-</br>
+
+Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de aprendizagem.
+
 O sistema deverá ter uma interface gráfica do Usuário (GUI) ❌
-</br>
-</br>
-O sistema deve implementar em sua  interface gráfica de  linha de comando, caracteres de desenhos de caixas, reproduzindo um visual retrô semelhante a interface MS-DOS ❌
-</br>
-</br>
+O sistema deve implementar em sua interface gráfica de linha de comando, caracteres de desenhos de caixas, reproduzindo um visual retrô semelhante a interface MS-DOS ❌
 O sistema deve utilizar a classe BigDecimal para a realização dos cálculos ❌
-</br>
-</br>
 O sistema deverá verificar automaticamente quantas semanas tem o mês corrente ❌
-</br>
-</br>
 
 O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
-</br>
-</br>
