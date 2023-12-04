@@ -85,6 +85,7 @@ O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverã
 
 #### Manutenabilidade: 
 O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
+</br>
 O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
 </br>
 O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
