@@ -1,11 +1,11 @@
 # Trabalho feito para a disciplica de programação de soluções computacionais - 02/2023 - Professor Diego Barros
 
-</br>
+<p align="center">
 
 ### Ferramentas usadas
-<img src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src = "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
 
-</br>
+</p>
 
 # Considerações
 
@@ -75,7 +75,8 @@ RF9 - Calcular Salário Líquido: O sistema deve ser capaz de calcular o salári
 
 # Requisitos Não Funcionais 
 
-#### Usabilidade: O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
+#### Usabilidade: 
+O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
 
 #### Manutenabilidade: 
 O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
