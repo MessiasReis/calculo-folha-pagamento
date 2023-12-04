@@ -9,7 +9,7 @@ Ferramentas usadas:
 
 # Considerações:
 
-Para que o projeto seja inicializado são necessários o jdk e o mySQL instalados em sua máquina.
+Para que o projeto seja inicializado são necessários o jdk e o mySQL instalados em sua máquina. A pasta resources dentro do projeto contem o banco de dados e o script para que sejam criadas as tabelas.
 
 # Proposta do projeto
 
@@ -42,6 +42,7 @@ O sistema deve armazenar informações dos funcionários e dos seus pagamentos r
 # Requisitos funcionais 
 
 Requisitos Funcionais cumpridos: Todos ✅
+</br>
 Requisitos funcionais não cumpridos: ❌
 
 RF1 - Calcular Salário Hora: O sistema deve ser capaz de calcular o valor do salário por hora de um funcionário  à partir do seu salário bruto ✅
@@ -71,6 +72,32 @@ RF8 - Calcular Desconto de IRRF: O sistema deve ser capaz de calcular o desconto
 RF9 - Calcular Salário Líquido: O sistema deve ser capaz de calcular o salário líquido do funcionário ✅
 </br>
 </br>
+
+# Requisitos Não Funcionais 
+</br>
+Usabilidade: O sistema deverá ser fácil de usar e todas mensagens mostradas na tela deverão estar muito bem escritas e formatadas ✅
+</br>
+Manutenabilidade: 
+O software deverá ser desenvolvido usando o paradigma Orientado a Objetos; com baixo acoplamento e alta coesão ✅
+</br>
+O código deverá estar limpo, muito bem organizado e estruturado, seguindo as boas práticas da programação estruturada ✅
+</br>
+O código fonte deverá seguir as convenções de código da linguagem de programação Java ✅
+</br>
+Requisitos Tecnológicos:
+</br>
+O sistema deverá ser implementado usando a linguagem de programação Java ✅
+O sistema deverá armazenar os dados em um banco de dados relacional ✅
+</br>
+Requisitos Extra:
+</br>
+Esta seção define alguns requisitos opcionais especiais que agregarão valor ao seu trabalho e fará você ir além no processo de  aprendizagem.
+</br>
+O sistema deverá ter uma interface gráfica do Usuário (GUI) ❌
+O sistema deve implementar em sua  interface gráfica de  linha de comando, caracteres de desenhos de caixas, reproduzindo um visual retrô semelhante a interface MS-DOS ❌
+O sistema deve utilizar a classe BigDecimal para a realização dos cálculos ❌
+O sistema deverá verificar automaticamente quantas semanas tem o mês corrente ❌
+
 RF10 -  Exibir Relatório: O sistema deve ser capaz de mostrar na tela o relatório da folha de pagamento ✅
 </br>
 </br>
