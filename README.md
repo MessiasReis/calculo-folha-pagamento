@@ -1,5 +1,3 @@
-# calculo-folha-pagamento
-
 # Trabalho feito para a disciplica de programação de soluções computacionais - 02/2023 - Professor Diego Barros
 
 
