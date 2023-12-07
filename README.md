@@ -1,4 +1,4 @@
-# Trabalho feito para a disciplica de programação de soluções computacionais - 02/2023 - Professor Diego Barros
+# Trabalho feito para a disciplina de programação de soluções computacionais - 02/2023 - Professor Diego Barros
 
 
 <div align="center">
@@ -8,7 +8,7 @@
 
 ### Membros do grupo 🙍‍♂
 
-Todos os membros (Andrey, Bruno, Luiz, Messias e Thiago) estão associados a esse repositório.
+Todos os membros (Andrey, Bruno, Luiz, Messias, Thiago e Victor) estão associados a esse repositório.
 
 </div>
 
